@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/hirotwne/work.hirondev.com/
+    - /bin/cp * $DEPLOYPATH
