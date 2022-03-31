@@ -1,0 +1,495 @@
+@media (min-width: 1349px){
+    .discover-content-outer img.discover-mobile{
+        width: 28%;
+    }
+
+    .dcw-1{
+        padding-top: 140px;
+    }
+
+    .discover-sec{
+        padding-bottom: 250px;
+    }
+
+    .contact-discover{
+        .dcw-1{
+            padding-top: 0;
+        }
+        padding-bottom: 70px;
+    }
+
+    
+}
+
+@media (max-width: 1449px){
+
+    .dm-btns{
+        padding-bottom: 0;
+    }
+
+    .navigation{
+        padding: 30px 0 40px;
+    }
+
+    .drowdown-menu{
+        padding: 30px 35px;
+    }
+
+    .language-switch{
+        left: 20px;
+        bottom: 20px;
+    }
+}
+
+@media (max-width: 1399px){
+    .discover-sec{
+        padding-bottom: 70px;
+    }
+    
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+    .discover-content-outer img.discover-mobile {
+        top: 157px;
+        width: 13%;
+    }
+}
+
+@media (min-width: 992px){
+    .footer-accor-content{
+        display: block !important;
+    }
+}
+
+@media (max-width: 991px){
+    .hero-content-wrap .row{
+        flex-wrap: wrap-reverse;
+    }
+
+    .hero-video{
+        margin-bottom: 50px;
+    }
+
+    .menu-toggle{
+        padding: 15px 35px;
+        line-height: 1;
+        display: flex;
+        align-items: center;
+    }
+
+    .safe-box{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .discover-content-wrap{
+        z-index: 999;
+    }
+
+    .discover-content-outer img.discover-mobile{
+        position: inherit;
+    }
+
+    .discover-content{
+        width: 100%;
+    }
+
+    .discover-content{
+        flex-wrap: wrap;
+    }
+
+    .discover-content:first-child{
+        flex-wrap: wrap-reverse;
+    }
+
+    .discover-content:nth-child(odd) .discover-desc{
+        text-align: left;
+    }
+
+    .discover-content .discover-desc{
+        margin-left: 0;
+    }
+
+    .discover-content .discover-icon{
+        width: 90px;
+        margin-bottom: 20px;
+    }
+
+    .dcw-1{
+        margin: 0;
+    }
+
+    .home-service-img{
+        margin-bottom: 40px;
+    }
+
+    .home-service-content-wrap:nth-child(2) .row{
+        flex-wrap: wrap-reverse;
+    }
+
+    .investor-logos {
+        flex-wrap: wrap;
+        .investor-logo{
+            width: 50%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    }
+
+    .accordion-body{
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .accordion-body ol li img{
+        width: 20px;
+    }
+
+    .footer-content{
+        margin-bottom: 40px;
+    }
+
+    .city-service{
+        .row{
+            flex-wrap: wrap-reverse;
+        }
+
+        .home-service-img{
+           
+        }
+
+        .home-service-content-wrap:nth-child(2) .row{
+            flex-wrap: wrap;
+        }
+    }
+
+    .hero-text{
+        padding: 0;
+    }
+
+    .job-post-filter{
+        margin-top: 60px;
+        padding-left: 0;
+    }
+
+    .footer-content{
+        border-bottom: 1px solid #888888;;
+    }
+
+    .footer-accor-head{
+        cursor: pointer;
+        i.fas{
+            display: inline;
+            color: #888888;
+            font-size: 18px;
+            @include transition (0.3s);
+        }
+        padding: 10px 0;
+    }
+    .footer-accor-content{
+        display: none;
+        padding-bottom: 10px;
+    }
+
+    .first-accor-content{
+        display: block;
+    }
+
+    .active-faccor{
+        i{
+            transform: rotate(90deg);
+        }
+    }
+
+
+    
+}
+
+
+@media(max-width: 767px){
+    .city-select .nice-select{
+        width: 130px;
+    }
+
+    .city-select .nice-select span.current, .city-select .nice-select .option{
+        font-size: 10px;
+    }
+
+    .site-logo img{
+        width: 60px;
+    }
+
+    .country-select{
+        display: none;
+    }
+
+    button.menu-toggle{
+        font-size: 12px;
+        padding: 8px 20px;
+        i{
+            font-size: 12px;
+        }
+    }
+
+    .drowdown-menu .dm-logo img{
+        width: 80px;
+    }
+
+    .drowdown-menu{
+        width: 80%;
+        padding: 20px;
+    }
+
+    .drowdown-menu .dm-time i{
+        font-size: 18px;
+    }
+
+    .navigation{
+        padding: 20px 0 40px;
+    }
+
+    .hero-content h2.hero-title{
+        font-size: 44px;
+    }
+
+    br{
+        display: none;
+    }
+
+    .faq-content-wrap{
+        padding: 30px;
+    }
+
+    .accordion-body ol li{
+        font-size: 14px;
+    }
+
+    .news-text-content span{
+        font-size: 14px;
+    }
+
+    .news-text-content a.title-link h2{
+        font-size: 24px;
+    }
+
+    .news-text-content{
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .newslatter-form{
+        width: 100%;
+    }
+
+    .hero-text{
+        font-size: 20px;
+    }
+
+    .position-filter-area{
+        flex-wrap: wrap;
+        justify-content: flex-start !important;
+    }
+
+    .position-filter-item{
+        width: 25%;
+    }
+
+    .contact-from-wrap{
+        padding: 20px;
+    }
+
+
+}
+
+@media (max-width: 486px){
+    .hero-content h2.hero-title{
+        font-size: 30px;
+        padding-right: 0;
+    }
+
+    .btn{
+        margin-bottom: 20px;
+    }
+
+    .hero-content span.hero-sub{
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .section-title, .home-service-content h3{
+        font-size: 22px;
+    }
+
+    .safe-sec{
+        padding-bottom: 60px;
+    }
+
+    .section-sub{
+        font-size: 12px;
+    }
+
+    .section-intro{
+        font-size: 10px;
+    }
+
+    .home-service-content .hsc-desc p, .home-service-content .hsc-desc ul li, .service-step p, .accordion-body p{
+        font-size: 14px;
+    }
+
+    .service-step{
+        padding-left: 20px;
+    }
+
+    .service-step h2{
+        font-size: 22px;
+    }
+
+    .service-step + .service-step{
+        margin-top: 40px;
+    }
+
+    .invest-btn{
+        margin-bottom: 20px;
+    }
+
+    .faq-accordion .accordion-head{
+        font-size: 18px;
+    }
+
+    .faq-content-wrap{
+        padding: 10px;
+    }
+
+    .faq-accordion .accordion-head{
+        padding: 15px 0;
+    }
+
+    .newslatter-field button{
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+
+    p.subs-text, .open-hours-wrap .open-hours-time p{
+        font-size: 14px;
+    }
+
+    .open-hours-wrap .open-hours-time h4{
+        font-size: 20px;
+    }
+
+    .open-hour-content{
+        padding: 30px 20px;
+    }
+
+    .open-hours-wrap{
+        padding-top: 30px;
+    }
+
+    button.hs-btn{
+        width: 100%;
+    }
+
+    .hero-rider{
+        padding-bottom: 100px;
+    }
+
+    .hero-text{
+        font-size: 16px;
+    }
+
+    .hero-career{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .career-feature{
+        padding-top: 80px;
+    }
+
+    .job-post-list-wrap ul li a{
+        font-size: 13px;
+        padding: 10px 0;
+    }
+
+    .city-filter-names{
+        display: block !important;
+    }
+
+    .city-filter-item{
+        width: 60%;
+        margin: 0 auto 15px;
+    }
+
+    .city-filter-item .cft-img img{
+        height: auto;
+    }
+
+    .position-filter-item{
+        width: 33%;
+    }
+
+    .discover-content .discover-icon{
+        width: 100%;
+    }
+
+    .discover-content .discover-desc{
+        width: 100%;
+    }
+
+
+    .contact-hero{
+        padding: 80px 0 120px;
+    }
+
+    .contact-discover{
+        padding-top: 0;
+    }
+
+    .single-hero{
+        padding: 70px 0;
+    }
+
+    .job-desc p{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .job-desc h4{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .job-desc ul li{
+        font-size: 14px;
+        padding-left: 30px;
+    }
+
+    .form-break h2{
+        font-size: 24px;
+    }
+
+    .checkbox-field label{
+        font-size: 12px;
+    }
+
+    .checkbox-field input{
+        margin-right: 5px;
+        margin-top: 8px;
+    }
+
+    .checkbox-field label{
+        display: inline !important;
+    }
+
+    .single-blog-title h2{
+        font-size: 24px
+    }
+
+    .single-blog-title .single-blog-meta span{
+        font-size: 14px;
+    }
+
+    
+
+   
+}
