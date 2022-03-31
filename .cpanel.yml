@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/hirotwne/work.hirondev.com/
+    - export DEPLOYPATH=/home/hirotwne/work.hirondev.com/rekab
     - /bin/cp * $DEPLOYPATH
